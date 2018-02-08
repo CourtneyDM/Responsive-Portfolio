@@ -213,3 +213,26 @@ figcaption {
     text-align: center;
     width: 100%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) { 
+    /* h1.heading {
+        margin-left: auto;
+    }
+    nav {
+        margin: auto;
+    } */
+}
+
+@media screen and (max-width: 768px) { 
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        /* border: 1px dotted red; */
+        color: orange;
+        position: static;
+    }
+
+}
