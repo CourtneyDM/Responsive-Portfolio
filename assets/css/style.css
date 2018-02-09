@@ -28,6 +28,7 @@ header {
     border: 1.5px solid #CCC;
     padding-top: 42px;
     padding-bottom: 42px;
+    position: inline;
 }
 
 nav {
@@ -229,10 +230,39 @@ figcaption {
 }
 
 @media screen and (max-width: 640px) {
-    div {
-        border: 1px dotted red;
-        color: orange;
-        position: static;
+    header {
+        background-color: none;
     }
 
+    nav {
+        clear: both;
+        width: 100%;
+    }
+
+    #content
+    #header {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article p {
+        clear: both;
+    }
+    article#main {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    aside#sidebar {
+        width: 100%;
+        clear: both;
+        float: left;
+        margin-bottom: 20px;
+    }
 }
