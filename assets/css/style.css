@@ -228,24 +228,30 @@ figcaption {
 
 @media only screen and (max-width: 768px) { 
 }
-
+/* Fix LOGO */
 @media screen and (max-width: 640px) {
     header {
         background-color: none;
+        margin: 0px;
     }
-
-    nav {
+/* need to fix location so that links show under name */
+nav ul{
+    display: inline;
+}
+    nav ul li a{
         clear: both;
-        width: 100%;
+        float: left;
     }
-
-    #content
-    #header {
+    #header,
+    #content {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-
+    header h1.heading {
+        display: block;
+        padding: auto;
+    }
     #profile {
         margin-left: auto;
         margin-right: auto;
