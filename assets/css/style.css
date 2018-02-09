@@ -228,7 +228,7 @@ figcaption {
 
 @media only screen and (max-width: 768px) { 
 }
-/* Fix LOGO */
+/* NEED TO Fix LOGO */
 @media screen and (max-width: 640px) {
     header {
         background-color: none;
