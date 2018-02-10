@@ -3,8 +3,7 @@
 }
 
 html {
-    overflow: scroll;
-height: 100%;
+    overflow: auto;
 }
 
 body {
@@ -200,6 +199,9 @@ figcaption {
     float: right;
 }
 
+
+/* Footer styling */
+
 .footer {
     clear: both;
     position: relative;
@@ -213,62 +215,4 @@ figcaption {
     padding-top: 44px;
     text-align: center;
     width: 100%;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 980px) { 
-    /* h1.heading {
-        margin-left: auto;
-    }
-    nav {
-        margin: auto;
-    } */
-}
-
-@media only screen and (max-width: 768px) { 
-}
-/* NEED TO Fix LOGO */
-@media screen and (max-width: 640px) {
-    header {
-        background-color: none;
-        margin: 0px;
-    }
-/* need to fix location so that links show under name */
-nav ul{
-    display: inline;
-}
-    nav ul li a{
-        clear: both;
-        float: left;
-    }
-    #header,
-    #content {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    header h1.heading {
-        display: block;
-        padding: auto;
-    }
-    #profile {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    article p {
-        clear: both;
-    }
-    article#main {
-        font-size: 12px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    aside#sidebar {
-        width: 100%;
-        clear: both;
-        float: left;
-        margin-bottom: 20px;
-    }
 }
