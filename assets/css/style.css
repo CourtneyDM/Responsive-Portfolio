@@ -199,6 +199,10 @@ figcaption {
     float: right;
 }
 
+.portfolio {
+    width: 250px;
+    height: auto;
+}
 
 /* Footer styling */
 
